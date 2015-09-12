@@ -1,6 +1,6 @@
 # loadcss-rails
 
-loadCSS (and onloadCSS) for Rails!
+loadCSS (and onloadCSS) for Rails! Load CSS asynchronously!
 
 This gem provides:
 
