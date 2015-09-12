@@ -10,7 +10,11 @@ These pieces of javascript were implemented by [Filament Group](https://github.c
 
 ## Installation
 
-The loadCSS and onloadCSS files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
+```
+gem 'loadcss-rails', '~> 0.1.0'
+```
+
+The loadCSS and onloadCSS files will be added to the asset pipeline and available for you to use. Add the lines that you need to your application's JS manifest (usually `app/assets/javascripts/application.js`).
 
 ```js
 //= require loadCSS
