@@ -21,6 +21,19 @@ The loadCSS and onloadCSS files will be added to the asset pipeline and availabl
 //= require onloadCSS
 ```
 
+## Usage
+
+Here's a quick example of what you would drop in your application's layout (usually `app/views/layouts/application.html.erb`):
+
+```html
+<script>
+  loadCSS("<%= stylesheet_path('application') %>");
+</script>
+```
+
+More examples may be found here: [loadCSS](https://github.com/filamentgroup/loadCSS/)
+
+
 ## Versions
 
 The loadcss-rails gem follows these version guidelines to provide more control over your app's loadCSS version from your Gemfile:
