@@ -8,6 +8,15 @@ This gem provides:
 
 These pieces of javascript were implemented by [Filament Group](https://github.com/filamentgroup/loadCSS/)
 
+## Installation
+
+The loadCSS and onloadCSS files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
+
+```js
+//= require loadCSS
+//= require onloadCSS
+```
+
 ## Versions
 
 The loadcss-rails gem follows these version guidelines to provide more control over your app's loadCSS version from your Gemfile:
@@ -16,15 +25,6 @@ The loadcss-rails gem follows these version guidelines to provide more control o
 patch version bump = updates to loadcss-rails and patch-level updates to loadCSS
 minor version bump = minor-level updates to loadCSS
 major version bump = major-level updates to loadCSS and updates to Rails which may be backwards-incompatible
-```
-
-## Installation
-
-The loadCSS and onloadCSS files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
-
-```js
-//= require loadCSS
-//= require onloadCSS
 ```
 
 ## Contributing
