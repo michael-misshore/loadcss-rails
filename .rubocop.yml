@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - '*.gemspec'
+    - 'spec/*_helper.rb'
+    - 'Gemfile'
+    - 'Rakefile'
+
+Documentation:
+    Enabled: false
