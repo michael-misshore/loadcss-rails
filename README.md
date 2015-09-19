@@ -1,4 +1,4 @@
-# loadcss-rails
+# loadcss-rails [![Code Climate](https://codeclimate.com/github/michael-misshore/loadcss-rails/badges/gpa.svg)](https://codeclimate.com/github/michael-misshore/loadcss-rails)
 
 loadCSS (and onloadCSS) for Rails! Load CSS asynchronously!
 
