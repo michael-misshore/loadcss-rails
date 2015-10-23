@@ -54,4 +54,8 @@ Licensed MIT
     });
     return ss;
   };
+  // commonjs
+  if( typeof module !== "undefined" ){
+    module.exports = w.loadCSS;
+  }
 }(this));
