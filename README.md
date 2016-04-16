@@ -27,9 +27,8 @@ The loadCSS and onloadCSS files will be added to the asset pipeline and availabl
 Here's a quick example of what you would drop in your application's layout (usually `app/views/layouts/application.html.erb`):
 
 ```html
-<script>
-  loadCSS("<%= stylesheet_path('application') %>");
-</script>
+<link rel="preload" href="<%= stylesheet_path('application') %>" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="<%= stylesheet_path('application') %>"></noscript>
 ```
 
 More examples may be found here: [loadCSS](https://github.com/filamentgroup/loadCSS/)
