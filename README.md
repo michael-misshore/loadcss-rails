@@ -18,6 +18,7 @@ The loadCSS and onloadCSS files will be added to the asset pipeline and availabl
 
 ```js
 //= require loadCSS
+//= require cssrelpreload
 //= require onloadCSS
 ```
 
