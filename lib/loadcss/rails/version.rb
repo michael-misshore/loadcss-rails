@@ -1,6 +1,6 @@
 module LoadCSS
   module Rails
-    VERSION = '1.3.1'
-    LOADCSS_VERSION = '1.3.1'
+    VERSION = '2.0.1'
+    LOADCSS_VERSION = '2.0.1'
   end
 end
